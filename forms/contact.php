@@ -1,5 +1,4 @@
 <?php
-<?php
  require "vendor/autoload.php";
  use PHPMailer\PHPMailer\PHPMailer;
  use PHPMailer\PHPMailer\SMTP;
@@ -59,5 +58,4 @@
   // $contact->add_message( $_POST['message'], 'Message', 10);
 
   // echo $contact->send();
-?>
 ?>
