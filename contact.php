@@ -22,7 +22,7 @@
                                                 $mail->addAddress("nicolasmahlangu75@gmail.com","Nicholus");
                                                 $mail->addAddress("nicolasmahlangu75@gmail.com","Nicholus");
                                                 $mail->Subject= "$subject";
-                                                $mail->Body="$message";
+                                                $mail->Body="$message + $email";
 
                                                 $mail->send();
                                                 echo "email sent";
